@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 1 - JavaScript</title>
+</head>
+
+<body style="margin: 0; background-color: #f2f2f2; font-family: Arial, sans-serif;">
+
+    <div style="background-color: #222; color: white; padding: 25px; text-align: center;">
+        <h1 style="margin: 0;">Tugas 1 - JavaScript</h1>
+        <p style="margin-bottom: 0;">Menghitung luas dari persegi panjang, bujur sangkar dan segitiga menggunakan variabel dan operator.</p>
+    </div>
+
+    <div style="width: 85%; margin: 30px auto;">
+
+        <div style="background-color: white; padding: 25px; border-radius: 10px;">
+
+            <h2 style="text-align: center;">Hasil Perhitungan</h2>
+
+            <hr>
+
+            <script>
+
+                //Menghitung Luas Persegi Panjang
+
+                let panjang = 10;
+                var lebar = 5;
+
+                var luasPersegiPanjang = panjang * lebar;
+                //Menghitung Luas Bujur Sangkar
+
+                var sisi = 7;
+
+                var luasBujurSangkar = sisi * sisi;
+
+                //Menghitung Luas Segitiga
+                var alas = 8;
+                var tinggi = 6;
+
+                var luasSegitiga = 1 / 2 * alas * tinggi;
+
+
+                // cetak Persegi panjang
+                document.write(
+                    "<div padding:20px; margin-bottom:20px; border-radius:8px;'>" +
+                    "<h3>Luas Persegi Panjang</h3>" +
+                    "Panjang = " + panjang + "<br>" +
+                    "Lebar = " + lebar + "<br>" +
+                    "Luas = " + luasPersegiPanjang +
+                    "</div>"
+                );
+                //cetak Bujur Sangkar
+                document.write(
+                    "<div padding:20px; margin-bottom:20px; border-radius:8px;'>" +
+                    "<h3>Luas Bujur Sangkar</h3>" +
+                    "Sisi = " + sisi + "<br>" +
+                    "Luas = " + luasBujurSangkar +
+                    "</div>"
+                );
+                //cetak Luas Setgitiga
+                document.write(
+                    "<div padding:20px; border-radius:8px;'>" +
+                    "<h3>Luas Segitiga</h3>" +
+                    "Alas = " + alas + "<br>" +
+                    "Tinggi = " + tinggi + "<br>" +
+                    "Luas = " + luasSegitiga +
+                    "</div>"
+                );
+
+            </script>
+
+        </div>
+    </div>
+</body>
+</html>
