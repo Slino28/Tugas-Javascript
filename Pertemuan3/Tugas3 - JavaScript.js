@@ -39,11 +39,11 @@ tampilkanProduk();
 console.log("\nMenambahkan Produk Baru");
 tambahProduk("Monitor", 1500000, 4);
 
-//Menampilkan produk yang udah di tambah
+//nampilin produk yang udah di tambah
 tampilkanProduk();
 
 console.log("\nMenghapus Produk");
 hapusProduk(2);
 
-//Menampilkan produk yang sudah di apus
+//nampilin produk yang udah di apus
 tampilkanProduk();
